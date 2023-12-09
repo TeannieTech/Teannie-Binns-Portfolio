@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+/* main HTML */
 body {
   margin: 0;
   padding: 0;
@@ -9,8 +10,12 @@ body {
   line-height: 1.5;
 }
 
-h1,
+h1 {
+ color:rgb(249, 249, 254);
+
+}
 h2,
+
 h3,
 h4,
 h5,
@@ -21,3 +26,57 @@ h6 {
 p {
   margin: 0;
 }
+
+/* Top nav bar */
+header {
+  background-color: blue;
+}
+
+/* fix top margin so no space*/ 
+.menubar
+{
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+color: white;
+margin-bottom: 0%;
+margin-top: 0%;
+}
+
+li {
+  border-bottom-style: solid;
+  display: inline;
+}
+
+
+
+/* hero image only*/
+/* amend photosize to show full- shows full in small page*/
+/* change image to blue */
+.hero-banner {
+height: 300px;
+width: 100%;
+margin-bottom: 25px;
+background-image: url("../images/02-hero-bg.jpg");
+background-size: cover;
+background-position: center;
+}
+
+.hero-banner h2 {
+
+  color: cornsilk;
+
+ 
+  
+}
+
+
+ 
+/* About me section */
+
+
+
+/* Work */
+
+
+/* contact me */
