@@ -95,36 +95,57 @@ background-position: center;
 
 
 /* Work */
-.grid { 
+.gridbase {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 50% repeat(2, 25%);
+    grid-template-columns: 20% repeat(2, 40%);
+    grid-template-rows: 25% 35% repeat(2, 15%) 10%;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-}
+    margin: 100px;
+    }
+    
 
-
-.grid1 { 
-  grid-area: 1 / 1 / 2 / 3; 
-  background-color: blueviolet;
-}
-
-.grid2 { 
-  grid-area: 2 / 1 / 3 / 2; 
-background-color: aqua;}
-
-.grid3 {
-   grid-area: 2 / 2 / 3 / 3; 
-  background-color: chocolate;}
-
-.grid4 { 
-  grid-area: 3 / 1 / 4 / 2;
-  background-color: burlywood;}
-
-.grid5{ 
-  grid-area: 3 / 2 / 4 / 3; 
-background-color: darkcyan;}
-
+    .aboutmetext { 
+      grid-area: 1 / 1 / 2 / 2; 
+      background-color: pink;
+    }
+    .worktext { 
+      grid-area: 2 / 1 / 5 / 2; 
+      background-color: green;
+    }
+    .contactmetext { 
+      grid-area: 5 / 1 / 6 / 2; 
+      background-color: orange;
+    }
+    .aboutmeparagraph { 
+      grid-area: 1 / 2 / 2 / 4; 
+      background-color: yellow;
+    }
+    .surfreport { 
+      grid-area: 2 / 2 / 3 / 4; 
+      background-color: yellowgreen;
+    }
+    .Ledwall { 
+      grid-area: 3 / 2 / 4 / 3; 
+      background-color: red;
+    }
+    .calculator { 
+      grid-area: 3 / 3 / 4 / 4; 
+      background-color: blue;
+    }
+    .pastelpuzzels { 
+      grid-area: 4 / 2 / 5 / 3; 
+      background-color: blueviolet;
+    }
+    .runbuddy { 
+      grid-area: 4 / 3 / 5 / 4;
+      background-color: brown;
+    }
+    .contactmeinfo { 
+      grid-area: 5 / 2 / 6 / 4; 
+     background-color: burlywood;
+    }
+  
 
 /* contact me  change too footer?*/
 /* add to nav bar too?*/
