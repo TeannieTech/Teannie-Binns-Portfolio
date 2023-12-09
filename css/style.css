@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
- color:rgb(249, 249, 254);
+ color:blue
 
 }
 h2,
@@ -107,47 +107,49 @@ background-position: center;
 
     .aboutmetext { 
       grid-area: 1 / 1 / 2 / 2; 
-      background-color: pink;
+    border-right-style: solid
     }
     .worktext { 
       grid-area: 2 / 1 / 5 / 2; 
-      background-color: green;
     }
     .contactmetext { 
       grid-area: 5 / 1 / 6 / 2; 
-      background-color: orange;
+      border-right-style: solid
     }
     .aboutmeparagraph { 
       grid-area: 1 / 2 / 2 / 4; 
-      background-color: yellow;
+    
     }
     .surfreport { 
       grid-area: 2 / 2 / 3 / 4; 
-      background-color: yellowgreen;
     }
-    .Ledwall { 
+    .ledwall { 
       grid-area: 3 / 2 / 4 / 3; 
-      background-color: red;
     }
     .calculator { 
       grid-area: 3 / 3 / 4 / 4; 
-      background-color: blue;
     }
     .pastelpuzzels { 
       grid-area: 4 / 2 / 5 / 3; 
-      background-color: blueviolet;
     }
     .runbuddy { 
       grid-area: 4 / 3 / 5 / 4;
-      background-color: brown;
     }
-    .contactmeinfo { 
+    .contactmeinfomain { 
       grid-area: 5 / 2 / 6 / 4; 
-     background-color: burlywood;
+     
     }
-  
 
-/* contact me  change too footer?*/
+    .surfreport img, .ledwall img, .calculator img, .pastelpuzzels img, .runbuddy img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+
+  /* grid left text column?*/
+
+
+
 /* add to nav bar too?*/
 .contactme {
   display:flex;
@@ -156,11 +158,6 @@ background-position: center;
 
 }
 
-.contactme h2 {
-
-  border-right-style: solid;
-  
-}
 
 .contactinfo {
 
