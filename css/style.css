@@ -10,6 +10,11 @@ body {
   line-height: 1.5;
 }
 
+header h1 {
+
+  color:#FFFFFF;
+}
+
 h1 {
  color:blue
 
@@ -30,6 +35,7 @@ p {
 /* Top nav bar */
 header {
   background-color: blue;
+  
   
 }
 
@@ -76,7 +82,7 @@ a:hover
 height: 300px;
 width: 100%;
 margin-bottom: 25px;
-background-image: url("../images/02-hero-bg.jpg");
+background-image: url("../images/logo-with-white-line.jpg");
 background-size: cover;
 background-position: center;
 }
@@ -150,6 +156,7 @@ background-position: center;
     }
     .contactmeinfomain { 
       grid-area: 5 / 2 / 6 / 4; 
+      padding: 80px;
      
     }
 
