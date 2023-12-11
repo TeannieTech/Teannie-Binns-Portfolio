@@ -79,17 +79,16 @@ a:hover
 /* amend photosize to show full- shows full in small page*/
 /* change image to blue */
 .hero-banner {
-height: 300px;
-width: 100%;
-margin-bottom: 25px;
-background-image: url("../images/logo-with-white-line.jpg");
-background-size: cover;
-background-position: center;
+height: 50%;
+width: auto;
+
+
 }
 
 .hero-banner h2 {
 
-  color: cornsilk;
+  color: rgb(4, 3, 0);
+  bottom
 
 }
 
@@ -144,6 +143,8 @@ background-position: center;
     }
     .ledwall { 
       grid-area: 3 / 2 / 4 / 3; 
+      
+           
     }
     .calculator { 
       grid-area: 3 / 3 / 4 / 4; 
@@ -163,9 +164,18 @@ background-position: center;
     .surfreport img, .ledwall img, .calculator img, .pastelpuzzels img, .runbuddy img {
       height: 100%;
       width: 100%;
-      object-fit: cover;
+      border: 5px solid blue;
+      
+      
+    
     }
 
+
+    .ledwall img {
+
+      
+      
+    }
   /* grid left text column?*/
 
 
