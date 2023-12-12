@@ -21,7 +21,7 @@ N/A 
 
 -The 'work' images will take you to a separate page showing my work. 
 
-Link to deployed project: 
+Link to deployed project: https://teannietech.github.io/Teannie-Binns-Portfolio/
 
 ![alt text](/images/readmess.jpg) 
  
