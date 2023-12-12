@@ -25,15 +25,6 @@ color: #FFFFFF;
 
 }
 
-h2 {
-  color: red;
-
-}
-
-
-h3,
-h4,
-h5,
 h6 {
   margin: 0;
 }
@@ -111,7 +102,7 @@ color: rgba(0, 0, 0, 0.766);
 }
 
 .hero-banner h2 {
-  color: rgba(0, 0, 0, 0.766);;
+  color: rgba(0, 0, 0, 0.766);
 }
 
 .bottom-right {
@@ -133,18 +124,11 @@ color: rgba(0, 0, 0, 0.766);
 }
 
 
-
- 
-/* About me section why id and a class? ask tutor*/
-
-
-
-
 /* Work */
 .gridbase {
     display: grid;
     grid-template-columns: 20% repeat(2, 40%);
-    grid-template-rows: 13% 35% repeat(2, 15%) 4%;
+    grid-template-rows: 14% 35% repeat(2, 15%) 4%;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     margin: 100px;
@@ -197,7 +181,7 @@ color: rgba(0, 0, 0, 0.766);
     }
     .contactmeinfomain { 
       grid-area: 5 / 2 / 6 / 4; 
-      padding: 20px;
+      padding-bottom: 50%;
      
     }
 
@@ -214,7 +198,7 @@ color: rgba(0, 0, 0, 0.766);
       width: 130px;
       height: 50px;
       position: relative;
-      bottom: 80px;
+      bottom: 130px;
       text-align: center;
     }
 
@@ -223,7 +207,7 @@ color: rgba(0, 0, 0, 0.766);
       width: 130px;
       height: 50px;
       position: relative;
-      bottom: 80px;
+      bottom: 130px;
       text-align: center;
     }
 
@@ -232,7 +216,7 @@ color: rgba(0, 0, 0, 0.766);
       width: 130px;
       height: 50px;
       position: relative;
-      bottom: 80px;
+      bottom: 130px;
       text-align: center;
       text
     }
@@ -242,7 +226,7 @@ color: rgba(0, 0, 0, 0.766);
       width: 130px;
       height: 50px;
       position: relative;
-      bottom: 80px;
+      bottom: 130px;
       text-align: center;
       
     }
@@ -252,7 +236,7 @@ color: rgba(0, 0, 0, 0.766);
       width: 130px;
       height: 55px;
       position: relative;
-      bottom: 18%;
+      bottom: 130px;
       text-align: center;
     }
 
@@ -303,3 +287,17 @@ a:hover
     color: black;
 }
 }
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+/* tablet*/
+
+
+
+@media screen and (max-width: 800px) {
+  .bottom-right h2 {
+    color: red;
+  }
+
+/* mobile*/
