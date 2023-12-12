@@ -21,6 +21,8 @@ N/A 
 
 -The 'work' images will take you to a separate page showing my work. 
 
+Link to deployed project: 
+
 ![alt text](/images/readmess.jpg) 
  
 

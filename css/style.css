@@ -105,10 +105,16 @@ color: rgba(0, 0, 0, 0.766);
   color: rgba(0, 0, 0, 0.766);
 }
 
+.hero-banner {
+
+  position: relative;
+}
+
+
 .bottom-right {
   position: absolute;
-  bottom: 150px;
-  top: 600px;
+  bottom: 18px;
+  /* top: 600px; */
   right: 10px;
   height: 60px;
   width: 300px;
@@ -289,15 +295,18 @@ a:hover
 }
 
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-/* tablet*/
-
-
-
-@media screen and (max-width: 800px) {
-  .bottom-right h2 {
-    color: red;
+/* Tablet min 768*/
+@media only screen and (max-width: 768px) {
+  .gridbase {
+    grid-template-columns: repeat (1fr);
   }
+}
 
-/* mobile*/
+
+
+/* mobile min 320
+@media only screen and (max-width: 320px) {
+  body {
+    background-color: lightblue;
+  }
+} */
